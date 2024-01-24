@@ -1,0 +1,10 @@
+<button (click)="publicRequest()">Requête publique</button>
+<button (click)="privateRequest()">Requête privée</button>
+<br>
+<br>
+<button (click)="register()">Enregistrer</button>
+<button (click)="connect()">Connecter</button>
+@if(isLoggedIn()){
+  <button  (click)="logout()">Déconnecter</button>
+}
+
